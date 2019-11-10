@@ -17,4 +17,10 @@ public class TestHandler {
 	public String test2() {
 		return "test2";
 	}
+	
+	
+	@RequestMapping("/zhuyilong")
+	public String zhuyilong() {
+		return "zhuyilong";
+	}
 }
