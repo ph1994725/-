@@ -12,4 +12,9 @@ public class TestHandler {
 		return "test";
 	}
 
+	
+	@RequestMapping("/test2")
+	public String test2() {
+		return "test2";
+	}
 }
