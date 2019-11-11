@@ -23,4 +23,9 @@ public class TestHandler {
 	public String zhuyilong() {
 		return "zhuyilong";
 	}
+	
+	@RequestMapping("/gfh1")
+	public String gfh1() {
+		return "gfh1";
+	}
 }
